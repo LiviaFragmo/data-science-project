@@ -10,4 +10,4 @@ Environment: Python 3.14.6, pandas 3.0.3, NumPy 2.4.6, Matplotlib 3.11.0, Seabor
 
 Changes: replace chained inplace assignments for pandas compatibility; export laptop figures and results; permit local CSV arguments for both projects; download dashboard data from the provider when a local file is absent; clarify research question, main finding and limitation.
 
-These improvements followed self-review and AI assistance. Real classmate feedback and an improvement based on it remain pending.
+These improvements followed self-review and AI assistance. A roommate review was subsequently confirmed by Xie Yihan. A comparison table was added to the portfolio after that confirmation; see the [review record](https://github.com/LiviaFragmo/data-science-portfolio/blob/main/review-and-improvement.md).
