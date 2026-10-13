@@ -1,0 +1,9 @@
+{
+  "rows": 238,
+  "missing_values_after_cleaning": 0,
+  "price_skewness": 1.273529677114741,
+  "ram_price_correlation": 0.5492972971857845,
+  "anova_f": 3.1813373887304373,
+  "anova_p": 0.0031272515281957885,
+  "charts": 4
+}

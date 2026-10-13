@@ -1,14 +1,20 @@
 """Module 05 Final Lab 02: automobile sales reports."""
 
 from pathlib import Path
+import argparse
 
 import dash
 from dash import Input, Output, dcc, html
 import pandas as pd
 import plotly.express as px
 
+SOURCE = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/historical_automobile_sales.csv"
+parser = argparse.ArgumentParser()
+parser.add_argument("--data", help="Optional local course CSV; otherwise use local default or IBM URL")
+parser.add_argument("--port", type=int, default=8050)
+args = parser.parse_args()
 DATA = Path(__file__).with_name("historical_automobile_sales.csv")
-data = pd.read_csv(DATA)
+data = pd.read_csv(args.data or (DATA if DATA.is_file() else SOURCE))
 years = sorted(int(year) for year in data["Year"].dropna().unique())
 month_order = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -76,4 +82,4 @@ def update_report(report_type, year):
 
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=False, port=args.port)

@@ -1,0 +1,32 @@
+{
+  "rows": 528,
+  "layout_status": 200,
+  "dependencies_status": 200,
+  "report_callbacks": [
+    {
+      "report": "recession",
+      "year": 2023,
+      "graphs": 4,
+      "status": 200
+    },
+    {
+      "report": "yearly",
+      "year": 1980,
+      "graphs": 4,
+      "status": 200
+    },
+    {
+      "report": "yearly",
+      "year": 2010,
+      "graphs": 4,
+      "status": 200
+    },
+    {
+      "report": "yearly",
+      "year": 2023,
+      "graphs": 4,
+      "status": 200
+    }
+  ],
+  "year_toggle": "passed"
+}

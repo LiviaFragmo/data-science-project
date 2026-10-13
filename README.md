@@ -27,4 +27,4 @@ See [dashboard code, screenshots and run instructions](automobile-dashboard_READ
 Source coursework: CISC7204; housing and laptop exercises use IBM Skills Network data/resources. Public materials retain project provenance; original copyrighted lesson templates, assessment files, teammate materials and raw course datasets are excluded. AI assisted packaging, documentation and the new housing descriptive script. Xie Yihan should review all materials before publication.
 
 ## Verification status
-Housing descriptive script executed successfully. All included Python files passed syntax checks. Laptop and dashboard full reruns, public repository links, live site, peer feedback and feedback-based improvement are pending.
+Housing descriptive script executed successfully. All included Python files passed syntax checks. Laptop and dashboard reruns passed; see [reproduction report](reproduction-report.md). Public repositories and the portfolio website are accessible. Real classmate feedback and a resulting improvement remain pending.
