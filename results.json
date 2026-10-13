@@ -1,0 +1,12 @@
+{
+  "rows": 21613,
+  "area_price_correlation": 0.6055672983560842,
+  "median_price_by_waterfront": {
+    "0": 450000.0,
+    "1": 1400000.0
+  },
+  "group_counts": {
+    "0": 21450,
+    "1": 163
+  }
+}
